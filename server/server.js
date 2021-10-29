@@ -1,5 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
+// will have to use express.session to allow session handling.
 const app = express();
 
 app.use(express.json());
